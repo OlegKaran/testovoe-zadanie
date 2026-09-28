@@ -60,7 +60,7 @@ Train раскладываю на уникальные запросы (текс�
 | `avito-kandidates-ranking.ipynb` | предобработка, валидационное разбиение, BM25-признаки |
 | `avito_microcat_classifier_1.ipynb` | классификатор микрокатегорий (out-of-fold) |
 | `encoder-finetune.ipynb` | дообучение энкодера, раунд 1 |
-| `encoder-finetune-v2.ipynb` | дообучение энкодера, раунд 2 (трудные негативы) |
+| `encoder-finetune-v2.ipynb` | дообучение энкодера, раунд 2 (hard negatives) |
 | `full-features-v2.ipynb` | кандидаты BM25 + энкодер, признаки для train, val и бенчмарка |
 | `avito-final-training-v2-r2.ipynb` | обучение CatBoost, оценка, `answer.csv` |
 | `reproduce_answer.ipynb` | воспроизведение `answer.csv` из сохранённых артефактов |
